@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "0.10"
+cache:
+  directories:
+    - node_modules  
 after_success:
   echo "Notify traffic light to be green"
   # curl LOCALIP/sucesso
