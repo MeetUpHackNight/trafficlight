@@ -1,6 +1,6 @@
-let chai = require('chai')
-let Build = require('../build')
-let expect = chai.expect
+var chai = require('chai')
+var Build = require('../build')
+var expect = chai.expect
 
 describe('Build', function() {
   it('#toTrigger', function() {
