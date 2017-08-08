@@ -1,6 +1,6 @@
-# trafficlight   [![Build Status](https://travis-ci.org/MeetUpHackNight/trafficlight.svg?branch=master)](https://travis-ci.org/MeetUpHackNight/trafficlight)
+# triggerSemaforo   [![Build Status](https://travis-ci.org/MeetUpHackNight/trafficlight.svg?branch=master)](https://travis-ci.org/MeetUpHackNight/trafficlight)
 
-Smart traffic light 
+Acionar semáforo
 
 Projeto semáforo parte foi desenvolvida na meetup [hack night](https://www.meetup.com/pt-BR/Hack-Night).
 
