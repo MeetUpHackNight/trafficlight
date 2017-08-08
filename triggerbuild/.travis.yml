@@ -5,3 +5,4 @@ before_script:
   - cd triggerbuild  
 install:
   - npm install -g mocha
+  - npm install -g chai
