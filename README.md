@@ -1,4 +1,4 @@
-# trafficlight   ![Build Status](https://travis-ci.org/MeetUpHackNight/trafficlight.svg?branch=master)
+# trafficlight   [![Build Status](https://travis-ci.org/MeetUpHackNight/trafficlight.svg?branch=master)](https://travis-ci.org/MeetUpHackNight/trafficlight)
 
 Smart traffic light 
 
@@ -6,7 +6,7 @@ Projeto semáforo parte foi desenvolvida na meetup [hack night](https://www.meet
 
 
 ## Objetivo:
-O projeto tem como objetivo trocar o status do semáforo para verde|vermelho de acordo com o resultado dos testes automatizados.
+O projeto tem como objetivo trocar o status do semáforo(verde|vermelho) de acordo com o resultado dos testes automatizados.
 
 Foi utilizado [Travis-Ci](https://travis-ci.org) com webhook para chamar endpoint de sucesso ou falha. O webserver requisitado esta sendo executado na placa [nodemcu](https://secure.meetupstatic.com/photos/event/6/3/2/4/highres_463405380.jpeg)(dentro do semáforo).
 
