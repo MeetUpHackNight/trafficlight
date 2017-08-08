@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Suite of unit test to trigger CI to turn traffic light leds",
   "scripts": {
-    "test": "@mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
