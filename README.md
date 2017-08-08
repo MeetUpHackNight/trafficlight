@@ -1,6 +1,6 @@
-# trafficlight
+# trafficlight   ![Build Status](https://travis-ci.org/MeetUpHackNight/trafficlight.svg?branch=master)
 
-Smart traffic light
+Smart traffic light 
 
 Projeto semáforo parte foi desenvolvida na meetup [hack night](https://www.meetup.com/pt-BR/Hack-Night).
 
