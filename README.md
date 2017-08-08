@@ -2,21 +2,13 @@
 
 Smart traffic light 
 
-
 Projeto semáforo parte foi desenvolvida na meetup [hack night](https://www.meetup.com/pt-BR/Hack-Night).
 
 
-## Projeto:
-Objetivo do **semáforo** é integrar no processo de Continous Integration, trazendo mais realidade e diversão do resultado final do testes automatizados.
+## Objetivo:
+O projeto tem como objetivo trocar o status do semáforo para verde|vermelho de acordo com o resultado dos testes automatizados.
 
-
-###### Parte interna do semáforo:
-
-![image](https://secure.meetupstatic.com/photos/event/6/3/2/4/highres_463405380.jpeg)
-
-
-###### Circuito elétrico:
-![image](https://secure.meetupstatic.com/photos/event/1/f/0/3/highres_463447939.jpeg) 
+Foi utilizado [Travis-Ci](https://travis-ci.org) com webhook para chamar endpoint de sucesso ou falha. O webserver requisitado esta sendo executado na placa [nodemcu](https://secure.meetupstatic.com/photos/event/6/3/2/4/highres_463405380.jpeg)(dentro do semáforo).
 
 
 ###### Demo:
