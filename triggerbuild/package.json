@@ -2,9 +2,8 @@
   "name": "triggerbuild",
   "version": "1.0.0",
   "description": "Suite of unit test to trigger CI to turn traffic light leds",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "@mocha"
   },
   "repository": {
     "type": "git",
@@ -14,8 +13,7 @@
     "m2m",
     "iot",
     "hardware",
-    "nodemcu",
-    "esp8266"
+    "nodemcu"
   ],
   "author": "@desireesantos",
   "license": "MIT",
@@ -24,6 +22,7 @@
   },
   "homepage": "https://github.com/MeetUpHackNight/trafficlight#readme",
   "devDependencies": {
-    "chai": "^4.1.1"
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
   }
 }
