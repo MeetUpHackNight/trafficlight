@@ -1,7 +1,8 @@
 before_script: 
   - cd triggerbuild
-  - npm install
 language: node_js
+before_install:
+  - npm install -g mocha
 node_js:
   - "4.0.0"
 cache:
