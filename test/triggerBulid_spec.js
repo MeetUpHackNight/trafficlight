@@ -4,6 +4,6 @@ var expect = chai.expect
 
 describe('Build', function() {
   it('#toTrigger', function() {
-    expect(new Build().toTrigger())
+    expect(new Build().toTrigger()).to.be.true;
   })
 })
