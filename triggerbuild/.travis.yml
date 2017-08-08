@@ -1,9 +1,9 @@
-before_script: cd triggerbuild
+before_script: 
+  - cd triggerbuild
+  - npm install
 language: node_js
 node_js:
   - "4.0.0"
-install:
-  - npm install  
 cache:
   directories:
     - "node_modules"
