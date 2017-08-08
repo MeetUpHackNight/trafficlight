@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "0.10"
+after_success:
+  echo "Notify traffic light to be green"
+  # curl LOCALIP/sucesso
+after_failure:
+  echo "Notify traffic light to be red"
+  # curl LOCALIP/falha
